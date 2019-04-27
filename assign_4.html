@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Continuing Education Course/Instructor Evaluation - Centennial College</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assign_4_external.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<!--
+Student: Ibrahim Jomaa
+Student ID: 300911528
+-->
+<body>
+<form>
+<a target="_blank" href="https://www.centennialcollege.ca/">
+  <img id="banner" alt="Centennial College Logo." src="images/centennial_college_logo.jpeg">
+</a>
+
+<header>
+    <h3>CENTENNIAL COLLEGE</h3>
+    <h5>Continuing Education Course/Instructor Evaluation</h5>
+    <p id="header-paragraph">
+      Please read each statement carefully and consider each one individually. Give only one answer for each question.
+    </p>
+</header>
+
+<div>
+  <fieldset>
+    <label for="course-code">Course name/Code:</label>
+    <select name="course-code" id="course-code" required>
+        <option value="" selected hidden></option>
+        <option value="comm-170">COMM-170</option>
+        <option value="gned-219">GNED-219</option>
+        <option value="math-175">MATH-175</option>
+        <option value="comp-213">COMP-213</option>
+        <option value="comp-120">COMP-120</option>
+        <option value="comp-100">COMP-100</option>
+      </select>
+    <div class="options">
+      Semester:
+      <input type="checkbox" name="semester"> Fall
+      <input type="checkbox" name="semester"> Winter
+      <input type="checkbox" name="semester"> Spring/Summer
+      <label for="year">Year:</label>
+        <input type="date" name="year" id="year" required>
+    </div>
+      Instructor:
+      <input list="instructor" name="instructor" size="40" required>
+      <datalist id="instructor">
+        <option value="Sylvia Vrh-Zoldos">
+        <option value="Tommaso Bianchi">
+        <option value="Jemisa Sadiku">
+        <option value="Blessing Ajiboye">
+        <option value="Vijayalakshmi Tiruchengode Angamuthu">
+        <option value="Narendra Pershad">
+      </datalist>
+  </fieldset>
+</div>
+
+<div>
+  <h5>INSTRUCTOR</h5>
+  <p>How would you rate the instructor's:</p>
+  <fieldset>
+    <ol>
+      <li>
+        Knowledge of subject?
+        <div class="options">
+          <input type="radio" name="knowledge" required> Excellent
+          <input type="radio" name="knowledge" required> Good
+          <input type="radio" name="knowledge" required> Fair
+          <input type="radio" name="knowledge" required> Not Satisfactory
+        </div>
+      </li>
+      <li>
+        Helpfulness?
+        <div class="options">
+          <input type="radio" name="helpfulness" required> Excellent
+          <input type="radio" name="helpfulness" required> Good
+          <input type="radio" name="helpfulness" required> Fair
+          <input type="radio" name="helpfulness" required> Not Satisfactory
+        </div>
+      </li>
+      <li>
+        Courtesy and respect for all students?
+        <div class="options">
+          <input type="radio" name="curt-and-resp" required> Excellent
+          <input type="radio" name="curt-and-resp" required> Good
+          <input type="radio" name="curt-and-resp" required> Fair
+          <input type="radio" name="curt-and-resp" required> Not Satisfactory
+        </div>
+      </li>
+      <li>
+        Communication skills?
+        <div class="options">
+          <input type="radio" name="communication" required> Excellent
+          <input type="radio" name="communication" required> Good
+          <input type="radio" name="communication" required> Fair
+          <input type="radio" name="communication" required> Not Satisfactory
+        </div>
+      </li>
+      <li>
+        Overall performance?
+        <div class="options">
+          <input type="radio" name="performance" required> Excellent
+          <input type="radio" name="performance" required> Good
+          <input type="radio" name="performance" required> Fair
+          <input type="radio" name="performance" required> Not Satisfactory
+        </div>
+      </li>
+    </ol>
+  </fieldset>
+</div>
+
+<div>
+  <h5>COURSE</h5>
+  <fieldset>
+    <ol start="6">
+      <li>
+        How would you rate the course materials?
+        <div class="options">
+          <input type="radio" name="course-material" required> Excellent
+          <input type="radio" name="course-material" required> Good
+          <input type="radio" name="course-material" required> Fair
+          <input type="radio" name="course-material" required> Not Satisfactory
+        </div>
+      </li>
+      <li>
+        How much did this course meet your expectations?
+        <div class="options">
+          <input type="radio" name="expectations" required> Excellent
+          <input type="radio" name="expectations" required> Good
+          <input type="radio" name="expectations" required> Fair
+          <input type="radio" name="expectations" required> Not Satisfactory
+        </div>
+      </li>
+      <li>
+        How would you rate this course(overall)?
+        <div class="options">
+          <input type="radio" name="overall" required> Excellent
+          <input type="radio" name="overall" required> Good
+          <input type="radio" name="overall" required> Fair
+          <input type="radio" name="overall" required> Not Satisfactory
+        </div>
+      </li>
+    </ol>
+  </fieldset>
+</div>
+
+<div>
+  <h5>GENERAL INFORMATION</h5>
+  <fieldset>
+    <ol start="9">
+      <li>
+        Was the course outline reviewed/explained at the beginning of your course?
+        <div class="options">
+          <input type="radio" name="course-outline" required> Yes
+          <input type="radio" name="course-outline" required> No
+          <input type="radio" name="course-outline" required> Not Sure
+        </div>
+      </li>
+      <li>
+        Would you recommend this course to a friend with the same interests?
+        <div class="options">
+          <input type="radio" name="recommend" required> Yes
+          <input type="radio" name="recommend" required> No
+          <input type="radio" name="recommend" required> Not Sure
+        </div>
+      </li>
+    </ol>
+  </fieldset>
+</div>
+
+<div id="any-other-comments">
+  <h5>ANY OTHER COMMENTS</h5>
+  <fieldset>
+    <ol start="11">
+      <li>
+        <label for="best-thing">What is the best thing about this course?</label>
+        <input type="text" name="best-thing" id="best-thing" maxlength="80" required>
+      </li>
+      <li>
+        <label for="improve">How could we improve this course?</label>
+        <input type="text" name="improve" id="improve" maxlength="80" required>
+      </li>
+      <li class="expand-border">
+        <label for="other">Other:</label>
+        <textarea name="other" id="other" rows="4" cols="80"></textarea>
+      </li>
+    </ol>
+  </fieldset>
+</div>
+
+<div id="main-buttons">
+  <input type="submit" value="Submit" class="buttons">
+  <input type="reset" value="Reset" class="buttons">
+</div>
+
+<footer>
+  <p>Thank you! We pay attention to your feedback!</p>
+  <p>
+    <a target="_blank" href="https://www.centennialcollege.ca/pdf/publications/Continuing-Education-Calendar.pdf">www.centennialcollege.ca/pdf/publications/Continuing-Education-Calendar.pdf</a>
+    <a target="_blank" href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>
+  </p>
+</footer>
+</form>
+
+</body>
+</html>

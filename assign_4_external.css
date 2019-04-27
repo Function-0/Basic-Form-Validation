@@ -1,0 +1,130 @@
+﻿/*
+Student: Ibrahim Jomaa
+Student ID: 300911528
+*/
+
+body {
+font-family: Verdana;
+font-size: 0.72em;
+}
+
+div > p {
+margin-bottom: 0em;
+}
+
+fieldset {
+border: none;
+}
+
+footer {
+text-align: center;
+}
+
+form {
+background-color: #EBEDF2;
+border: 0.2em solid;
+box-shadow: 0.625em 0.625em 0.438em;
+margin: auto;
+padding-left: 2em;
+padding-right: 2em;
+padding-top: 2em;
+width: 75em;
+}
+
+header {
+clear: both;
+margin: auto;
+text-align: center;
+width: 75em;
+}
+
+h3, h5 {
+margin: 0em;
+}
+
+h5:first-child {
+background-color: #C8CEDD;
+}
+
+h5 {
+font-size: 1.3em;
+}
+
+h3 {
+font-size: 1.6em;
+}
+
+label[for=year] {
+margin-left: 7em;
+}
+
+li {
+margin-bottom: 1.5em;
+margin-top: 1.5em;
+vertical-align: middle
+}
+
+textarea {
+clear: both;
+float: right;
+font-family: Verdana;
+font-size: 1em;
+resize: none;
+}
+
+.buttons {
+display: inline-block;
+}
+
+.expand-border {
+height: 7em;
+}
+
+.options input[type=checkbox]:first-of-type, 
+.options input[type=radio]:first-of-type {
+margin-left: 0em;
+}
+
+.options input[type=checkbox],
+.options input[type=radio] {
+margin-left: 7em;
+}
+
+
+#any-other-comments li {
+clear: both;
+}
+
+#any-other-comments input{
+clear: both;
+float: right;
+}
+
+#banner {
+float: left;
+}
+
+#best-thing {
+width: 66%;
+}
+
+#header-paragraph {
+margin-bottom: 1em;
+}
+
+#improve {
+width: 71%;
+}
+
+#main-buttons {
+text-align: center;
+}
+
+#main-heading {
+clear: none;
+text-align: center;
+}
+
+#other {
+width: 93%;
+}
